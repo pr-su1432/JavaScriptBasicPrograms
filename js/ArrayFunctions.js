@@ -41,9 +41,9 @@
 //console.log(AfterSplice);
 
 //Split-----------------------------------------------------------
-//let text = "hello hi";
-//let afterSlice = text.split("0");
-//console.log(afterSlice[0]);
+let text = "hello hi";
+let afterSlice = text.split("o");
+console.log(afterSlice[0]);
 
 //SpreadOperator--------------------------------------------------------------------
 //const fruits = ["Banana", "Orange"];
@@ -65,17 +65,17 @@
 //console.log(Output);
 
 //Mapfunction using numbers------------------------------------------------------------
-const numbers = [45, 5, 9, 36, 16, 25, 2];
+//const numbers = [45, 5, 9, 36, 16, 25, 2];
 //let Output = numbers.map((no)=> no * 2);
 //console.log(Output);
 
 //let filterOutput = numbers.filter((no)=> no < 3);
 //console.log(filterOutput);
 
-let Output = numbers.reduce((a, v)=>{
-    return a + v;
-},100);
-console.log(Output);
+//let Output = numbers.reduce((a, v)=>{
+    //return a + v;
+//},100);
+//console.log(Output);
 
 
 
